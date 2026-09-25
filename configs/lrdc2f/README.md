@@ -23,6 +23,3 @@ Set `data_root` at the top of the file before training. All three dataloaders us
 this value. Changing only `data_root` through `--cfg-options` does not recalculate
 the dataloaders; override their nested `dataset.data_root` values instead.
 
-See the [project guide](../../README.md), [中文指南](../../README_zh-CN.md) and
-[release notes](../../docs/lrdc2f_release_notes.md). The release notes record
-differences between the supplied experiment and the published paper.
