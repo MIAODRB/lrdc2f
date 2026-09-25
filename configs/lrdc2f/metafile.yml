@@ -1,0 +1,21 @@
+Collections:
+  - Name: LRDC2F
+    Metadata:
+      Training Data: LRD-RB
+      Architecture:
+        - CSPNeXt
+        - CSPNeXtPAFPN
+        - LRDC2FHead
+    Paper:
+      URL: https://doi.org/10.1016/j.isprsjprs.2026.06.036
+      Title: Detection of oriented lunar rockfalls and kinematic analysis in Tycho Crater
+    README: configs/lrdc2f/README.md
+
+Models:
+  - Name: lrdc2f
+    In Collection: LRDC2F
+    Config: configs/lrdc2f/lrdc2f.py
+    Metadata:
+      Training Data: LRD-RB
+      Epochs: 36
+    # No result or weight entry until a checkpoint is verified with this config.

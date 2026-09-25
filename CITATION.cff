@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use LRDC2F, please cite the paper and acknowledge MMRotate."
+title: "LRDC2F: Oriented Lunar Rockfall Detection"
+type: software
+authors:
+  - family-names: Miao
+    given-names: Dingruibo
+  - family-names: Yan
+    given-names: Jianguo
+  - family-names: Tu
+    given-names: Zhigang
+repository-code: "https://github.com/MIAODRB/lrdc2f"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "Detection of oriented lunar rockfalls and kinematic analysis in Tycho Crater"
+  authors:
+    - family-names: Miao
+      given-names: Dingruibo
+    - family-names: Yan
+      given-names: Jianguo
+    - family-names: Tu
+      given-names: Zhigang
+  journal: "ISPRS Journal of Photogrammetry and Remote Sensing"
+  year: 2026
+  volume: 239
+  start: 963
+  end: 975
+  doi: "10.1016/j.isprsjprs.2026.06.036"
